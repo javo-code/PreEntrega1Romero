@@ -1,5 +1,4 @@
 import carritoIco from './carrito-blanco.png'
-import Contador from './Contador';
 import './estilosCarrito.css';
 
 function CartWidget() {
@@ -13,8 +12,7 @@ return (
         alt='icono carrito'
       />
       <div className='contador-carrito'>
-        <Contador
-        />5
+        5
       </div>
     </button>
   </div>

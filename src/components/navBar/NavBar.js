@@ -1,8 +1,6 @@
 import logo from '../../img/logo.png';
 import './navBar.css'
-import '../cartWidget/Contador'
 import CartWidget from '../cartWidget/CartWidget'
-import Contador from '../cartWidget/Contador';
 
 function NavBar() {
   return (
@@ -26,7 +24,6 @@ function NavBar() {
         
       </div>
       <CartWidget />
-      <Contador />
     </nav>
   )
 } 
